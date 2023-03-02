@@ -11,23 +11,79 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body style="font-family: Josefin Sans;" >
+<body >
     <div class="top-img"></div>
-    <div>
-        <header class="pc-header">
-            <nav>
-            </nav>
+    <div >
+        <header class="pc-header mt-20">
+            <div class="px-30">
+                <nav class="navbar">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-uppercase text-white">LOGO</h1>
+                    </a>
+                    <div class="flex justify-between align-center" >
+                        <a href="index.html" class="nav-item nav-link text-20 text-uppercase">Home</a>
+                        <a href="index.html" class="nav-item nav-link text-uppercase">About</a>
+                        <a href="index.html" class="nav-item nav-link text-uppercase">Service</a>
+                        <a href="#" class="nav-item nav-link text-uppercase">Menu</a>
+                        <a href="index.html" class="nav-item nav-link text-uppercase">Contact</a>
+                    </div>
+                </nav>
+            </div>
         </header>
-        <header class="sp-header">
-            <nav>
-            </nav>
+        <header class="sp-header relative">
+            <div class="sp-brand">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-uppercase text-white">LOGO</h1>
+                </a>
+            </div>
+            <div class="phone">
+                <div class="menu">
+                  <div class="options">
+                    <div class="option selected">Home</div>
+                    <div class="option">About</div>
+                    <div class="option">Products</div>
+                    <div class="option">Contact</div>
+                  </div>
+                </div>
+                <div class="menu-click-area" onclick="cross_button_click()">
+                    <div class="cross-button">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+              </div>
         </header>
     </div>
     <main>
-
+        <section id="section-about" class="section-about">
+            <div class="section-about__img">
+                <img src="./assets/img/115_E39A5895.jpg">
+            </div>
+            <div class="section-about__des">
+                <div>
+                    <h2 class="section-about__des_ttl">About our company LOGO</h2>
+                </div>
+                <div class="section-about__des_des">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    <br>
+                    <br> Aenean commodo ligula eget dolor.
+                    <br>
+                    <br>
+                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+                </div>
+                <div>
+                    <a href="/about" class="link sd">
+                        <span  class="text sd">VIEW MORE</span>
+                        <i class="icon fa fa-long-arrow-right sd"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+<script src="./assets/js/main.js"></script>
 </html>
