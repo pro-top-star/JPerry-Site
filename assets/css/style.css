@@ -34,6 +34,11 @@
     margin-top: 20px;
 }
 
+.pt-20 {
+    padding-top: 20px;
+}
+
+
 .px-30 {
     padding-left: 50px;
     padding-right: 50px;
@@ -69,6 +74,10 @@
   background-position: 50%;
   transition: inherit;
   filter: brightness(0.8);
+}
+
+.custom-header {
+  height: 100vh;
 }
 
 .navbar {
@@ -204,36 +213,8 @@
   top: 10px;
 }
 
-.section-about {    
-  margin: 120vh 0px 100px 0px;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.section-about__img {
-  width: 50%;
-}
-
-.section-about__img img {
-  width: 100%;
-}
-
-.section-about__des {
-  width: 50%;
-  padding: 0 120px;
-}
 
 
-.section-about__des_ttl {
-  font-size: 36px;
-  font-family: "Josefin Sans";
-  text-transform: uppercase;
-}
-
-.section-about__des_des {
-  margin-top: 45px;
-  font-size: 20px;
-}
 
 @media (max-width: 891px) {
   .pc-header {

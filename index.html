@@ -8,13 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/section_about.css">
+    <link rel="stylesheet" href="./assets/css/section_product.css">
 </head>
 <body >
     <div class="top-img"></div>
-    <div >
-        <header class="pc-header mt-20">
+    <div class="custom-header">
+        <header class="pc-header pt-20">
             <div class="px-30">
                 <nav class="navbar">
                     <a href="index.html" class="navbar-brand">
@@ -56,30 +59,64 @@
         </header>
     </div>
     <main>
+        <!-- About Section -->
         <section id="section-about" class="section-about">
             <div class="section-about__img">
                 <img src="./assets/img/115_E39A5895.jpg">
             </div>
             <div class="section-about__des">
-                <div>
+                <div class="section-about__des_pocket">
                     <h2 class="section-about__des_ttl">About our company LOGO</h2>
+                    <div class="section-about__des_des">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        </p>
+                        <br>
+                        <br> 
+                        <p>
+                            Aenean commodo ligula eget dolor.
+                        </p>
+                        <br>
+                        <br>
+                        <p >
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+                        </p>
+                    </div>
+                    <div class="section-about__view_more">
+                        <a href="#" class="view-more__link">
+                            <span >VIEW MORE</span>
+                            <i class="badge fa fa-long-arrow-right "></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="section-about__des_des">
+            </div>
+        </section>     <!-- About Section End -->
+        <section id="section-product" class="section-product">
+            <div>
+                <h2>Products</h2>
+                <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    <br>
-                    <br> Aenean commodo ligula eget dolor.
-                    <br>
-                    <br>
-                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-                </div>
-                <div>
-                    <a href="/about" class="link sd">
-                        <span  class="text sd">VIEW MORE</span>
-                        <i class="icon fa fa-long-arrow-right sd"></i>
+                </p>
+                <div class="pc-product__view_more">
+                    <a href="#" class="view-more__link">
+                        <span >VIEW MORE</span>
+                        <i class="badge fa fa-long-arrow-right "></i>
                     </a>
                 </div>
             </div>
-        </section>
+            <div>
+                <img src="./assets/img/products/01.jfif" alt="product-1">
+                <img src="./assets/img/products/02.jfif" alt="product-1">
+                <img src="./assets/img/products/03.jfif" alt="product-1">
+                <img src="./assets/img/products/04.jfif" alt="product-1">
+            </div>
+            <div class="sp-product__view_more">
+                <a href="#" class="view-more__link">
+                    <span >VIEW MORE</span>
+                    <i class="badge fa fa-long-arrow-right "></i>
+                </a>
+            </div>
+        </section>   <!-- Product Section end -->
     </main>
     <footer>
 
